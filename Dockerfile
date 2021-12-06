@@ -11,5 +11,5 @@ RUN npm install --save express
 RUN npm install --save mongoose
 
 COPY --chown=node:node . .
-EXPOSE 8080
+EXPOSE 8087
 CMD [ "node", "user_settings/user_settings_service.js" ]

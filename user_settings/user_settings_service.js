@@ -7,7 +7,7 @@ require('../db/db');
 const userSetting = require('./user_settings_model');
 
 const app = express();
-const port = 8080;
+const port = 8087;
 app.use(express.json())
 
 app.post('/usersetting', (req, res) => {
