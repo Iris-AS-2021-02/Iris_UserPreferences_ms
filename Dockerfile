@@ -8,7 +8,7 @@ USER node
 RUN npm install
 RUN npm install --save dotenv
 RUN npm install --save express
-RUN npm install --save mongoose
+
 
 COPY --chown=node:node . .
 EXPOSE 8087
